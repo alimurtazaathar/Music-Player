@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+       <div class="card">
+       <div class="image-container">
+        <img id="image" class="image" src="img/ali-1.jpg">
+       </div> 
+        <h2 id="title">Seven Nation Army (Remix)</h1>
+        <h3 id="artist">Jacinto</h3>
+        <audio class="audio" src="music/ali-1.mp3" id="audio"></audio>
+      <div class="progress-container">
+        <div class="duration">
+            <span id="inital" class="inital">0:00</span>
+            <span id="end" class="end">2:06</span>
+        </div>
+        <div class="progress-bar">
+            <div class="bar"></div>
+        </div>
+    </div>     
+        <div class="controls">
+            <i class="fas fa-backward" id="forward"></i>
+            <i class="fas fa-play" id="Play" title="Play"></i>
+            <i class="fas fa-forward" id="backward"></i>
+        </div>    
+    </div>
+        
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
